@@ -1,3 +1,5 @@
+import fibonacciSeries as fs
+
 # Stack
 my_stack = ["a", "c", "d", "b"]
 print(my_stack)
@@ -44,3 +46,8 @@ print("Dic2: ", dic2)
 
 for (k, v) in dic1.items():
     print(k, v)
+
+fs.printFibonacciSeries(5)
+
+print("===\nFormatted String")
+print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred', other='Georg'))
